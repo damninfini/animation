@@ -1,0 +1,15 @@
+.butt{background-color: white;}
+.butt:hover{
+    background-color: green;
+    animation: change-color 1.5s ease-in-out 3;}
+    @keyframes change-color {
+        0% {
+          background-color: white;
+        }
+        50% {
+          background-color: green;
+        }
+        100% {
+          background-color: white;
+        }
+      }
